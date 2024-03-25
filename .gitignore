@@ -201,3 +201,31 @@ venv.bak/
 *.bak
 *.swp
 *.temp
+
+# OpenDocument Text files and temporary files
+*.odt
+*.ott  # plantillas
+*.oth  # documentos HTML
+*.odm  # documentos maestros
+*.odg  # gráficos
+*.odp  # presentaciones
+*.ods  # hojas de cálculo
+*.odc  # gráficos
+*.odi  # imágenes
+*.odf  # fórmulas
+*.odb  # bases de datos
+*.odft  # plantillas de fórmulas
+
+# Temporales y de respaldo
+*.tmp
+*~
+.backup*
+
+# LibreOffice temporales
+.~lock.*#
+*.~lock.*
+
+# Files that might appear in the root of a volume
+Thumbs.db
+ehthumbs.db
+*.log
